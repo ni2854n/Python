@@ -1,12 +1,12 @@
 def main():
-    def findMin(x):
-        minNum = x[0]
-        for i in x:
+    def findMin(z):
+        minNum = z[0]
+        for i in z:
             if minNum > i:
                 minNum = i
         return minNum
 
-    print(findMin([0,1,2,3,4,5,-3,24,-56])) # = -56
+    print(findMin([0,2,4,6,8,10,-8,25,-60])) # = -60
 
 if __name__ == '__main__':
     main()
